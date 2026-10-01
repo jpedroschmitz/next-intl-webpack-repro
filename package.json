@@ -1,0 +1,20 @@
+{
+  "name": "next-intl-webpack-repro",
+  "private": true,
+  "scripts": {
+    "build": "next build --webpack",
+    "build:turbopack": "next build",
+    "dev": "next dev --webpack"
+  },
+  "dependencies": {
+    "next": "16.3.4",
+    "next-intl": "4.14.7",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@types/node": "24.0.0",
+    "@types/react": "19.2.2",
+    "typescript": "5.9.3"
+  }
+}
